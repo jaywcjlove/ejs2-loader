@@ -1,5 +1,9 @@
 ## Usage
 
+```bash
+sudo npm install ejs2-loader --save
+```
+
 [Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
 
 ### in js
@@ -16,7 +20,7 @@ template(data)
 
 ### in webpack 
 
-```json
+```js
 {
   module: {
     loaders: [
