@@ -1,0 +1,27 @@
+{
+  "name": "ejs2-loader",
+  "version": "1.0.0",
+  "description": "EJS loader for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ejs",
+    "webpack",
+    "loader",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/ejs2-loader.git"
+  },
+  "author": "kenny.wang <wowohoo@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "html-minifier": "^2.0.0",
+    "loader-utils": "^0.2.14",
+    "merge": "^1.2.0"
+  }
+}
