@@ -24,7 +24,7 @@ template(data)
 {
   module: {
     loaders: [
-      {test: /\.ejs$/, loader: 'ejs2-  loader?htmlmin=removeComments|removeAttributeQuotes|minifyCSS'}
+      {test: /\.ejs$/, loader: 'ejs2-loader?htmlmin=removeComments|removeAttributeQuotes|minifyCSS'}
     ]
   }
 }
